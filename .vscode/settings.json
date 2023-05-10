@@ -1,4 +1,15 @@
 {
+    "editor.minimap.enabled": false,
+    "editor.wrappingIndent": "same",
+    "editor.overviewRulerBorder": false,
+    "[markdown]": {
+        "editor.quickSuggestions": {
+            "comments": "on",
+            "strings": "on",
+            "other": "on"
+        }
+    },
+    "files.defaultLanguage": "markdown",
     "markdownlint.config": {
         "default": true,
         "MD007": { "indent": 2 },
@@ -16,5 +27,7 @@
             "cmd": "foam-vscode.update-wikilinks",
             "event": "onFileChange"
         }
-    ]
+    ],
+    "pasteImage.path": "${projectRoot}/attachments",
+    "pasteImage.showFilePathConfirmInputBox": true
 }

@@ -4,6 +4,7 @@
         "foam.foam-vscode",
         "yzhang.markdown-all-in-one",
         "davidanson.vscode-markdownlint",
-        "appulate.filewatcher"
+        "appulate.filewatcher",
+        "streetsidesoftware.code-spell-checker"
     ]
 }
