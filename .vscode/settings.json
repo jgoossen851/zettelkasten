@@ -7,16 +7,14 @@
         "MD047": false,
         "MD053": false
     },
-    "emeraldwalk.runonsave": {
-        "commands": [
-            {
-                "match": "\\.md$",
-                "isAsync": true,
-                "cmd": "foam-vscode.update-wikilinks"
-            },
-        ]
-    },
     "foam.edit.linkReferenceDefinitions": "withExtensions",
-    "foam.openDailyNote.filenameFormat": "yymmddHHMM",
+    "foam.openDailyNote.filenameFormat": "yy/mm/dd/HHMM",
     "foam.openDailyNote.directory": "zettel",
+    "filewatcher.commands": [
+        {
+            "match": "\\.md$",
+            "cmd": "foam-vscode.update-wikilinks",
+            "event": "onFileChange"
+        }
+    ]
 }

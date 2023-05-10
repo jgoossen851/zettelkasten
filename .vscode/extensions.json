@@ -3,7 +3,7 @@
         "mushan.vscode-paste-image",
         "foam.foam-vscode",
         "yzhang.markdown-all-in-one",
-        "emeraldwalk.runonsave",
-        "davidanson.vscode-markdownlint"
+        "davidanson.vscode-markdownlint",
+        "appulate.filewatcher"
     ]
 }
