@@ -29,5 +29,8 @@
         }
     ],
     "pasteImage.path": "${projectRoot}/attachments",
-    "pasteImage.showFilePathConfirmInputBox": true
+    "pasteImage.showFilePathConfirmInputBox": true,
+    "cSpell.words": [
+        "Zettelkasten"
+    ]
 }
