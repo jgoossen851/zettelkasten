@@ -49,6 +49,7 @@
     "pasteImage.path": "${projectRoot}/attachments",
     "pasteImage.showFilePathConfirmInputBox": true,
     "cSpell.words": [
+        "dtid",
         "Zettelkasten"
     ]
 }
